@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>SwiftAid</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.swiftaid.emergency</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <true/>
+        <key>UISceneConfigurations</key>
+        <dict>
+            <key>UIWindowSceneSessionRoleApplication</key>
+            <array>
+                <dict>
+                    <key>UISceneConfigurationName</key>
+                    <string>Default Configuration</string>
+                    <key>UISceneDelegateClassName</key>
+                    <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+                </dict>
+            </array>
+        </dict>
+    </dict>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+        <string>gyroscope</string>
+        <string>accelerometer</string>
+        <string>gps</string>
+        <string>front-facing-camera</string>
+        <string>camera-flash</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>SwiftAid needs access to your location to provide emergency services with your exact location during emergencies and to find nearby hospitals and emergency services.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>SwiftAid needs access to your location to provide emergency services with your exact location during emergencies.</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>SwiftAid needs access to your health data to monitor vital signs and detect health emergencies.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>SwiftAid needs to update your health data with emergency events and vital sign readings.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>SwiftAid uses your camera for AR first aid instructions and injury detection.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>SwiftAid needs microphone access for voice commands and emergency communication.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>SwiftAid uses speech recognition to understand voice commands during emergencies.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>SwiftAid monitors device motion to detect falls and crashes for emergency response.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>SwiftAid needs access to contacts to set up emergency contacts for notifications.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>background-processing</string>
+        <string>location</string>
+        <string>background-fetch</string>
+        <string>remote-notification</string>
+    </array>
+    <key>ARKitUsageDescription</key>
+    <string>SwiftAid uses AR to overlay first aid instructions in real-world environments.</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Use Face ID to quickly access emergency features when needed.</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+</dict>
+</plist>
