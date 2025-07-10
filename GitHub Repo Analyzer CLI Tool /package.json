@@ -1,0 +1,40 @@
+{
+  "name": "github-repo-analyzer",
+  "version": "1.0.0",
+  "description": "A CLI tool to analyze GitHub repositories and user profiles",
+  "main": "dist/index.js",
+  "bin": {
+    "github-analyzer": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "analyzer",
+    "typescript",
+    "node"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
